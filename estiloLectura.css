@@ -1,0 +1,679 @@
+.body{
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    position: fixed;
+}
+
+/* Icono del menú */
+.menu-icon {
+    width: 60px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    position: fixed;
+}
+
+/* Opciones del menú */
+.menu-options {
+    position: fixed;
+    display: none;
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde el icono */
+    left: 50px;
+    background-color: #420063;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    z-index: 9999; /* Para que esté por encima de todo */
+}
+
+/* Estilos de los enlaces dentro del menú */
+.menu-options li {
+    text-align: left;
+   
+}
+
+.menu-options a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.menu-options a:hover {
+    background-color: #660099;
+ }
+
+/* Mostrar menú al pasar el mouse */
+.menu-container:hover .menu-options {
+    display: block;
+    
+}
+.parent {
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 11; 
+    background-color: #7c1656;
+    border-radius: 10px;
+    
+    height: 5rem;
+    }
+
+    
+    .div2 { 
+    background-color: #dbc6c7;
+   height: 26rem;
+   position: absolute;
+
+   margin-top: 6rem;
+   margin-left: 5rem;
+   margin-right: 5rem;
+   width: 82.82%;
+   height: 75%;
+   padding: 30px;
+   padding-top: 1px;
+   border-radius: 10px;
+   font-family: sans-serif;
+   font-size: 1.3rem;
+
+}
+
+.div21 { 
+  background-color: #dbc6c7;
+ height: 26rem;
+ position: absolute;
+
+ margin-top: 6rem;
+ margin-left: 5rem;
+ margin-right: 5rem;
+ width: 82.82%;
+ height: 80%;
+ padding: 30px;
+ padding-top: 1px;
+ border-radius: 10px;
+ font-family: sans-serif;
+ font-size: 1.3rem;
+
+}
+
+
+
+
+
+
+.titulo{
+       
+       
+    position:absolute;
+    margin-top: 0.5rem;
+   margin-left: 7.5rem;
+   width: 80%;
+   
+}
+
+.imgclass{
+   position: absolute;
+    margin-left: 35rem;
+ width: 45%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #210619;
+border-width: 5px;
+margin-top: 2rem;
+}
+
+
+
+.variables{
+  position: absolute;
+   margin-left: 42rem;
+width: 37%;
+ border-radius: 10px;
+ border-style: solid;
+ border-color: #210619;
+border-width: 5px;
+}
+
+
+.herencia{
+  border-radius: 10px;
+ border-style: solid;
+ border-color: #210619;
+border-width: 5px;
+margin-left: 9rem;
+}
+
+.herencia2{
+  border-radius: 10px;
+ border-style: solid;
+ border-color: #210619;
+border-width: 5px;
+margin-left: 10rem;
+width: 70%;
+}
+.oper{
+  position: absolute;
+  margin-left: 42rem;
+width: 37%;
+border-radius: 10px;
+border-style: solid;
+border-color: #210619;
+border-width: 5px;
+margin-top: 1rem;
+}
+
+.try{
+  position: absolute;
+    margin-left: 20rem;
+ width: 38%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #210619;
+border-width: 5px;
+}
+
+
+
+
+.segunda{
+    max-width: 60%;
+}
+
+.listaPro{
+ 
+    position: absolute;
+  margin-left: 30rem;
+   max-width: 60%;
+
+}
+.listafun{
+  
+        position: absolute;
+  
+       max-width: 60%;
+    
+}
+
+.pro{
+    position: absolute;
+    width: 32%;
+    height: 46%;
+    margin-left: 2rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+  border-width: 5px;
+}
+
+.fun{
+    position: absolute;
+    width: 32%;
+    height: 50%;
+    margin-left: 46rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+  border-width: 5px;
+}
+
+/* From Uiverse.io by joe-watson-sbf */ 
+.flip-card {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+
+  .pilas{
+    max-width: 60%;
+  }
+  
+  .flip-container {
+    width: 72rem;
+    height: 34rem;
+    perspective: 1000px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+   
+
+   
+  
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Parte frontal */
+.front {
+    background-color: #dbc6c7;
+}
+
+/* Parte trasera */
+.back {
+    background-color: #7c1656;
+    transform: rotateY(180deg);
+    color: white;
+}
+
+/* Activar el flip */
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+ 
+  .if{
+   
+    width: 38%;
+    height: 50rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+    background-color: #dbc6c7;
+    padding: 30px;
+  }
+
+  .swich{
+    width: 38%;
+    height: 50rem;
+    margin-left: 4rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+    background-color: #dbc6c7;
+    padding: 30px;
+  }
+
+  .alineacion{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+  }
+
+  .imgif{
+    width: 75%;
+    height: 33%;
+    margin-left: 4rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+    border-width: 5px;
+  }
+
+  .imgswitch{
+    width: 70%;
+    height: 40%;
+    margin-left: 5rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+    border-width: 5px;
+  }
+
+
+
+  .for{
+    width: 75rem;
+    height: 12rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+    background-color: #dbc6c7;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+  .alineacionFor{
+    display: flex;
+    
+  }
+
+  .imgfor{
+    width: 27%;
+    height: 16%;
+    margin-top: 3.5rem;
+    margin-left: 50.4rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+    border-width: 5px;
+    position: absolute;
+  }
+
+  .texto{
+    max-width: 60%;
+    position: absolute;
+    margin-top: 4.5rem;
+  }
+  .titulofor{
+    position: absolute;
+    
+  }
+
+  .imgdowhile{
+    width: 27%;
+    height: 22%;
+    margin-top:1.8rem;
+    margin-left: 50.4rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+    border-width: 5px;
+    position: absolute;
+   
+  }
+
+  .textowhile{
+    max-width: 60%;
+    position: absolute;
+  margin-top: 3.5rem;
+  margin-left: 24rem;
+  }
+
+  .titulowhile{
+    position: absolute;
+    margin-top: 0.1rem;
+    margin-left: 58rem;
+  }
+
+.imgwhile{
+    position: absolute;
+    width: 27%;
+    height: 25%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #210619;
+    border-width: 5px;
+}
+
+.footer {
+    background-color: #7c1656; /* Color de fondo */
+    color: #dcc7c8; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    position: relative; /* NO se queda fijo, aparece al final */
+    width: 100%; /* Ocupa todo el ancho */
+    margin-top: 100px; /* Espaciado respecto al contenido */
+}
+
+.footerautor {
+  background-color: #7c1656; /* Color de fondo */
+  color: #dcc7c8; /* Color del texto */
+  text-align: center; /* Centrar el texto */
+  padding: 15px 0; /* Espaciado arriba y abajo */
+  position: relative; /* NO se queda fijo, aparece al final */
+  width: 100%; /* Ocupa todo el ancho */
+  margin-top: 300px; /* Espaciado respecto al contenido */
+}
+.steam{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+   
+}
+
+.face{
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem; 
+}
+.insta{
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem; 
+}
+
+
+
+.felx{
+    display: flex;
+}
+
+
+ .img1{
+  width: 20%;
+  margin-top: 13.5rem;  
+   
+
+ }
+
+ .paginacion{
+  display: flex;
+  margin-left: 10rem;
+
+}
+
+.divllectura21{
+  width: 38%;
+  height: 50rem;
+  margin-left: 5rem;
+  border-radius: 10px;
+  background-color: #dbc6c7;
+  padding: 30px;
+}
+
+
+.div22{
+  background-color: #dbc6c7;
+  height: 26rem;
+  position: absolute;
+
+  margin-top: 16rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 82.82%;
+  height: 84%;
+  padding: 30px;
+  padding-top: 1px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+.div333{
+  background-color: #dbc6c7;
+  height: 26rem;
+  position: absolute;
+
+  margin-top: 16rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 82.82%;
+  height: 100%;
+  padding: 30px;
+  padding-top: 1px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+
+
+.div222{
+  background-color: #dbc6c7;
+  height: 26rem;
+  position: absolute;
+
+  margin-top: 16rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 82.82%;
+  height: 70%;
+  padding: 30px;
+  padding-top: 1px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+.paginacion2{
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 38rem;
+}
+
+.paginacion4{
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 44rem;
+}
+
+.parrafoA{
+  max-width: 55%;
+}
+
+.textoclase{
+  max-width: 50%;
+}
+
+
+
+/* From Uiverse.io by eslam-hany */ 
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 60rem;
+  height: 30rem;
+  background-color: #dbc6c7;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  
+  
+ 
+  color: #000;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: #7c1656;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+  
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+.mover{
+  position: absolute;
+margin-top: 10rem;
+margin-left: 12rem;
+
+}
+
+.cilueta{
+  width: 45%;
+  margin-left: 32rem;
+}
+
+.oviautor{
+  width: 35%;
+  margin-left: 27rem;
+}
+
+.autorimg{
+  position: absolute;
+
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+.flexcards{
+ 
+  margin-left: 4rem;
+  margin-top: 3rem;
+color: #7c1656;
+font-family: sans-serif;
+}
+
+.personyo{
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 39rem;
+  width: 30%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #7c1656;
+  border-width: 5px;
+
+}
